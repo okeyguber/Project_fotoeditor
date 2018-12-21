@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>610</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PhotoEditor</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_file">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>471</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_left">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>530</y>
+      <width>141</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>поворот влево</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_save">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>530</y>
+      <width>141</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сохранить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_bandw">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ч/б</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_negatiff">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>негатив</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_stereo">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>стерео</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_dark">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>темнее</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_light">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>светлее</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_bandw">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>390</y>
+      <width>98</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_negatiff">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>390</y>
+      <width>98</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_stereo">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>390</y>
+      <width>98</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_dark">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>390</y>
+      <width>98</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_light">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>390</y>
+      <width>98</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_right">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>560</y>
+      <width>141</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>поворот вправо</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_ver">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>530</y>
+      <width>141</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>отразить по вертикали</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_gor">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>560</y>
+      <width>141</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>отразить по горизонтали</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Сначала выберите нужный вам фильтр!</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
